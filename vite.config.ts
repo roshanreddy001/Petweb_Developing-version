@@ -17,7 +17,7 @@ export default defineConfig({
     },
     proxy: {
       '/api': {
-        target: 'https://petloves-nedk.onrender.com',
+        target: 'https://petweb-developing-version-oumr.vercel.app/',
         changeOrigin: true,
         secure: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
