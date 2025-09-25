@@ -11,7 +11,7 @@ const getApiBaseUrl = (): string => {
   }
   
   // Default to production API
-  return 'https://petloves-nedk.onrender.com';
+  return 'https://petweb-developing-version-oumr.vercel.app/';
 };
 
 // API Configuration
